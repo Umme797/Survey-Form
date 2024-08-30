@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+    background-color: black;
+}
+
+.container {
+    border: 1px solid white;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+    width: 50rem;
+}
+
+.main-heading {
+    font-size: 4rem;
+    margin: 2rem 0rem 1rem;
+    text-align: center;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-field {
+    margin: 1rem 0px 0.6rem;
+}
+
+.field-head {
+    font-size: 2rem;
+}
+
+.field-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.input-div {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-control-input {
+    font-size: 1.5rem;
+    padding: 0.4rem 0px;
+    text-indent: 0.5rem;
+    border: none;
+    border: 1px solid #999;
+    border-radius: 7px;
+    width: 100%;
+    color: #999;
+}
+
+option {
+    color: #999;
+}
+
+button {
+    padding: 0.4rem 0px;
+    border: 1px solid #999;
+    margin: 25px 300px;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+  
+
+.text  {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    padding: 0.1rem;
+}
+
+select {
+    margin-right: 350px;
+}
+
+input {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
